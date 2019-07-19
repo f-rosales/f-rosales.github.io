@@ -1,6 +1,48 @@
 <!DOCTYPE html>
-<html>
-<head>
+  <html>
+  <head>
+  <style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #ffe0fc;
+    display: flex;
+  }
+  li{
+  flex: 1;
+  }
+
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  li a:hover:not(.active) {
+    background-color:  #ffccff;
+    color: white;
+  }
+  </style>
+  </head>
+  <body style="background-color: #ffb3da">
+
+
+  <ul>
+    <li><a href=file:///C:/Users/SMASH%20Scholar/Desktop/website/CS1fernanda.html>Home</a></li>
+    <li><a href=file:///C:/Users/SMASH%20Scholar/Desktop/website/project.html>Photos</a></li>
+    <li><a href=file:///C:/Users/SMASH%20Scholar/Desktop/website/contact.html>Contact</a></li>
+    <li><a href=file:///C:/Users/SMASH%20Scholar/Desktop/website/resume.html>Resume</a></li>
+  </ul>
   <title>About Me</title>
   <link rel="stylesheet" href="style/main.css">
 </head>
